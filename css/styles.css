@@ -1,0 +1,153 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 4.5rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2rem;
+  color: #ECB365;
+}
+
+h3 {
+  color: #e69b33;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #064663 5px;
+  border-bottom: none;
+  margin: 80px auto;
+  opacity: 0.4;
+  width: 3%;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  background-color: #04293A;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #064663;
+}
+
+#top-container {
+  background-color: #04293A;
+  padding-top: 29.565vh;
+  position: relative;
+  overflow: hidden;
+  height: 70.435vh;
+}
+
+#top-container-h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+#planet {
+  margin-top: 20px;
+}
+
+#galaxy {
+  position: absolute;
+  right: 160px;
+  top: 90px;
+  width: 15%;
+}
+
+#satellite {
+  position: absolute;
+  left: 210px;
+  transform: rotate(-15deg);
+  top: 380px;
+  width: 10%;
+}
+
+#middle-container {
+  margin: 70px 0;
+}
+
+#intro-section {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+}
+
+.skill-img {
+  width: 24%;
+}
+
+#skills-row-1 {
+  text-align: left;
+}
+
+#piano-skill-img {
+  float: left;
+  margin-right: 30px;
+}
+
+#skills-row-2 {
+  text-align: right;
+}
+
+#computer-skill-img {
+  float: right;
+  margin-left: 30px;
+}
+
+#contact-me-section {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#contact-me-p {
+  margin: 40px 0 40px;
+}
+
+#contact-me-button {
+  padding: 10px;
+}
+
+#bottom-container {
+  padding: 40px 0 5px;
+  background-color: #ECB365;
+}
+
+.footer-link {
+  color: #f0c284;
+  margin: 0 10px 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.4px;
+}
+
+#copyright {
+  color: #064663;
+  font-size: 0.7rem;
+}
